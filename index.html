@@ -17,7 +17,7 @@
           <video src="" controls class="result__video" poster=""></video>
         </div>
         <form class="search-form">
-          <fieldset class="search-form__fieldset">
+          <fieldset class="search-form__fieldset search-form__fieldset-city">
             <h2 class="search-form__fieldset-title">Город</h2>
             <label class="search-form__label">
               <span class="search-form__label-text visually-hidden">Город</span>
@@ -25,7 +25,7 @@
                 type="text"
                 placeholder="Санкт Петербург, например"
                 name="city"
-                class="search-form__textfield"
+                class="search-form__textfield search-form__textfield-city"
               />
             </label>
           </fieldset>
@@ -48,6 +48,7 @@
                   name="time"
                   value="afternoon"
                   class="search-form__checkbox visually-hidden"
+                  checked
                 />
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">День</span>
