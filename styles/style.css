@@ -378,6 +378,7 @@ ol {
 
 .content__list-container {
     display: flex;
+    position: relative;
     max-width: 399px;
     flex-direction: column;
     align-items: flex-start;
